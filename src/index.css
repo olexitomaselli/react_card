@@ -3,3 +3,13 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  position: fixed;
+  top: 50px;
+}

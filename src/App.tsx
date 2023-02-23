@@ -13,19 +13,19 @@ const products: Product[] = [
   {
     model: "Iphone", 
     description: "Top smartphone", 
-    price: 20,
+    price: 1400,
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgOoLh_HeAozlsEHKfUaMlicA6iNG71_NxzQ&usqp=CAU"
   },
   {
     model: "Samsung",
-    description: "Nice smartphone but iphpone is more good", 
-    price: 10,
+    description: "Top smartphone", 
+    price: 1300,
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE4EbsYIVNW4JAXI2VH7ckxjDqHGAe1_3WjuaICHidCmay-hCJNTvO0Unt6KLbcVpNXiU&usqp=CAU"
   },
   {
     model: "huawei", 
     description: "nice phone but not good",
-    price: 0.5,
+    price: 800,
     image: "https://d1eh9yux7w8iql.cloudfront.net/product_images/1585915495.356295.jpg"
   }
 ];
@@ -33,7 +33,8 @@ const products: Product[] = [
 function App() {
   return (
     <body>
-      <div>
+      <div className='title'><h1>SHOP YOUR FAVORITE PHONE</h1></div>
+      <div className='container'>
         {products.map((product) => (
           <Card product={product} />
         ))}

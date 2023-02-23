@@ -14,8 +14,8 @@ export const Card = (props: CardProps) => {
             <div className="card-body">
                 <h5 className="card-title">{props.product.model}</h5>
                 <img className="image" src={props.product.image} alt="" />
-                <p className="card-text">{props.product.description}</p>
-                <p className="card-text">{props.product.price}</p>
+                <p className="card-text-description">{props.product.description}</p>
+                <p className="card-text-price">€ {props.product.price}</p>
             </div>
         </div>
     )
