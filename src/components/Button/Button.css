@@ -1,0 +1,43 @@
+.conteiner-button {
+    display: flex;
+    flex-direction: row;
+    background-color: white !important;
+}
+
+.btn {
+    height: 10%;
+}
+
+.price-text {
+    position: absolute;
+    margin-top: -11%;
+    right: 10%;
+
+}
+
+.number-amount {
+    margin-top: 10%;
+}
+
+.container-amount {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-success {
+    margin-right: 5%;
+}
+.btn-danger {
+    margin-left: 5%;
+}
+
+.number-amount {
+    margin-top: 8%;
+}
+
+.container-button {
+    display: flex;
+    align-items: start;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+nav {
+    border-bottom: 1px solid red;
+}
+
+.container-fluid {
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+.navbar-nav a {
+    color: white !important;
+}
+
+.navbar-nav a:hover{
+    color: orange !important;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+
+.navbar-brand:hover {
+    color: white !important;
+}
+

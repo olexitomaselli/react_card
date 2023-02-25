@@ -1,15 +1,5 @@
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: rgb(42, 42, 42) !important;
 }
 
-.container {
-  display: flex;
-  flex-direction: row;
-}
 
-.title {
-  position: fixed;
-  top: 50px;
-}
